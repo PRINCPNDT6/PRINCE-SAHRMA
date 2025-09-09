@@ -24,3 +24,7 @@ const sideBar = document.getElementById('side-Bar');
             sideBar.classList.remove('open');
          
             });
+
+            setTimeout(function () {
+        document.getElementById("timeout-working").style.display = "none";
+    }, 10000);
